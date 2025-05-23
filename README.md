@@ -6,13 +6,13 @@ Var olan java spring projesini klonlayıp içerisine bir şeyler atma
 touch Dockerfile 
 nano Dockerfile 
  içine şu kodu  düzenleyip at
-# Temel image
+### Temel image
 FROM openjdk:17-jdk-slim
 
-# Jar dosyasını container içine kopyala
+ ###Jar dosyasını container içine kopyala
 COPY target/proje-adi.jar app.jar
 
-# Uygulamayı başlat
+### Uygulamayı başlat
 ENTRYPOINT ["java", "-jar", "/app.jar"] 
 
 Kaydetmek için ctrl+o enter çıkmak için ctrl+x
