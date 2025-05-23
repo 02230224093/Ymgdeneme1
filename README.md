@@ -53,7 +53,7 @@ volumes:
 
 6.	Application properties kısmını düzeltelim
 cd src/main/resources 
-               nano application.properties
+ nano application.properties
 bunda da gerekli düzenlemeleri hallet
 7.	Ana klasör dizinine dön
  cd ~/projeadı
